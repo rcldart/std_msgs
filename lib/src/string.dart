@@ -32,7 +32,9 @@ class StdMsgsString extends BaseRosMessage<rosidl_runtime_c__String> {
   }
 
   String get value {
-    return data.ref.data.cast<Utf8>().toDartString(length: data.ref.size);
+    // return data.ref.data.cast<Utf8>().toDartString(length: data.ref.size);
+
+    return data.ref.data.cast<Utf8>().toDartString();
   }
 
   set value(String val) {
