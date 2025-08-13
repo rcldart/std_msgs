@@ -14,7 +14,8 @@ dependencies:
   rcldart_utils:
     git:
       url: https://github.com/rcldart/rcldart_utils.git
-      branch: humble
+      # branch: humble
+      ref: 9b4a7a6
   # path: ^1.8.0
 
 dev_dependencies:
