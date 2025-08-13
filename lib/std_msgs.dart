@@ -4,5 +4,5 @@
 /// More dartdocs go here.
 library;
 
-export 'src/bool.dart';
 
+export 'src/bool.dart';
